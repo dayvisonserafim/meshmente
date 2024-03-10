@@ -54,3 +54,14 @@
         animeScroll();
       }, 200));
     }
+
+  //Alert
+  function alert (){
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: "Compra concluida com sucesso",
+      showConfirmButton: true,
+      timer: 1500
+    });
+  }
